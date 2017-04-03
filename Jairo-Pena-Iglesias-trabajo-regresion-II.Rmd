@@ -13,6 +13,7 @@ library("ggplot2") # Para hacer gráficas
 
 > En este trabajo, usamos datos asociados a todos los alumnos de Grado en Ingeniería Telemática y Grado en Ingeniería de Sistemas de Telecomunicación de la UPCT, que hayan superado 120 ECTS, que provengan de la Región de Murcia y que se hayan examinado de Física y Matemáticas_II en la Prueba de Acceso a la Universidad (PAU).
 
+
 # Objetivo:
 
 Nuestro objetivo es estudiar la posibilidad de predecir la nota media a partir de algunos datos en el ingreso del estudiante (calificación y decil PAU, así como de Física y Matemáticas II) y de sus resultados en algunas de las asignaturas más exigentes de la titulación:

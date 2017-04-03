@@ -6,6 +6,7 @@ Nombre: Jairo
 
 Apellidos: Peña Iglesias
 
+
 ```{r preliminares}
 ## cargamos los paquetes dplyr, ggplot2
 library("dplyr") # Para manipular data.frames
