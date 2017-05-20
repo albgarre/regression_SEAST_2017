@@ -6,7 +6,7 @@ getcutecat <- function(x){
     # writeLines(
     #     sprintf("![](http://placekitten.com/g/%s/%s)", x, x)
     # ) 
-    
+    x<-200
     sprintf("http://placekitten.com/g/%s/%s", x, x) %>%
         download.file('y.jpg', mode = 'wb')
     
@@ -15,3 +15,4 @@ getcutecat <- function(x){
     rasterImage(jj,0,0,1,1)
 }
 
+getcutecat()
